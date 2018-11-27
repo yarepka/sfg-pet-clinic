@@ -137,16 +137,8 @@
             </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <!--Note your version numbe might be different-->
+                    <!--Note your version number might be different-->
                     <version>2.22.0</version>
-                    <dependencies>
-                        <!-- for JUnit5 -->
-                        <dependency>
-                            <groupId>org.junit.platform</groupId>
-                            <artifactId>junit-platform-surefire-provider</artifactId>
-                            <version>${junit-platform.version}</version>
-                        </dependency>
-                    </dependencies>
                     <configuration>
                         <useSystemClassLoader>false</useSystemClassLoader>
                     </configuration>
